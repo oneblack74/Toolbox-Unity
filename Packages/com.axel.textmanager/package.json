@@ -1,0 +1,18 @@
+{
+    "name": "com.axel.textmanager",
+    "displayName": "Axel Text Manager",
+    "version": "0.1.0",
+    "unity": "6000.0",
+    "description": "Localisation CSV par colonnes (1 colonne par langue) + variables nommées {var}. Composants: LanguageManager, TextManager, TextReplace.",
+    "author": "Axel Brissy",
+    "dependencies": {
+        "com.unity.textmeshpro": "3.0.9"
+    },
+    "samples": [
+        {
+            "displayName": "Minimal CSV",
+            "description": "Exemple de fichier CSV avec variables.",
+            "path": "Samples~/Minimal"
+        }
+    ]
+}
