@@ -1,6 +1,6 @@
 {
-    "name": "Axel.TextManager.Runtime",
-    "rootNamespace": "Axel.TextManager",
+    "name": "Axel.DevConsole.Runtime",
+    "rootNamespace": "Axel.DevConsole",
     "references": [
         "Unity.TextMeshPro"
     ],
