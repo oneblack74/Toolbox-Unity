@@ -1,16 +1,1 @@
-{
-    "name": "Axel.TextManager.Runtime",
-    "rootNamespace": "Axel.TextManager",
-    "references": [
-        "Unity.TextMeshPro"
-    ],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [],
-    "noEngineReferences": false
-}
+{ "name": "Axel.TextManager.Runtime", "rootNamespace": "Axel.Axel.TextManager", "autoReferenced": true }
