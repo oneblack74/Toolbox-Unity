@@ -1,1 +1,12 @@
-{ "name": "Axel.TextManager.Editor", "rootNamespace": "Axel.Axel.TextManager", "references": [ "Axel.TextManager.Runtime" ], "includePlatforms": [ "Editor" ], "autoReferenced": true }
+{
+    "name": "Axel.TextManager.Editor",
+    "rootNamespace": "Axel.Axel.TextManager",
+    "references": [
+        "Axel.TextManager.Runtime",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "autoReferenced": true
+}

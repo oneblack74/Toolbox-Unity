@@ -5,5 +5,7 @@
   "unity": "6000.0",
   "description": "Système de localisation léger basé sur un CSV (une colonne par langue) avec support de TextMeshPro, changement de langue à chaud, variables nommées {var}, création rapide via “GameObject/UI/Localized Text” et samples prêts à l’emploi.",
   "author": "Axel Brissy",
-  "dependencies": {}
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.9"
+  }
 }
