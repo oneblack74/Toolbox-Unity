@@ -1,7 +1,7 @@
 {
   "name": "com.axel.textmanager",
   "displayName": "TextManager",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "unity": "6000.0",
   "description": "Système de localisation léger basé sur un CSV (une colonne par langue) avec support de TextMeshPro, changement de langue à chaud, variables nommées {var}, création rapide via “GameObject/UI/Localized Text” et samples prêts à l’emploi.",
   "author": "Axel Brissy",
