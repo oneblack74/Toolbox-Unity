@@ -3,22 +3,6 @@
 Contient toutes les langues dans un `.csv` (1ère colonne = Key, colonnes suivantes = langues).  
 Supporte des **variables nommées** `{player}`, `{count}`, etc.
 
-## Hierarchy (exemple)
-
-```
-├─ Localization/
-│   └─ Text.csv
-├─ Prefabs/
-│   └─ TextManager/
-│       └─ TextManager.prefab
-└─ Scripts/
-    └─ TextManager/
-        ├─ LanguageManager.cs
-        ├─ TextManager.cs
-        ├─ TextReplace.cs
-        └─ TextReplaceMenu.cs
-```
-
 ---
 
 ## Utilisation

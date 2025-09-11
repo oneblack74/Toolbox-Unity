@@ -1,0 +1,18 @@
+{
+  "name": "com.axel.devconsole",
+  "displayName": "Developper Console",
+  "version": "0.1.0",
+  "unity": "6000.0",
+  "description": "Console de développement pour faciliter le débogage et le test des fonctionnalités avec au choix : historique des commandes, autocomplétion/suggestions.",
+  "author": "Axel Brissy",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.9"
+  },
+  "samples": [
+    {
+      "displayName": "Starter (Prefab + ScriptableObject)",
+      "description": "Prefab Developper Console prêt à l’emploi + ScriptableObject.",
+      "path": "Samples~/Starter"
+    }
+  ]
+}

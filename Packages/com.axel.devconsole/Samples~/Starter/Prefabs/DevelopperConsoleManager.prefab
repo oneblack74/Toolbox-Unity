@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5797237914666851278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7760678779069018177}
+  - component: {fileID: 2091805019888011088}
+  - component: {fileID: 6723610851009160098}
+  - component: {fileID: 4599994642793152812}
+  - component: {fileID: 8862177574758744234}
+  m_Layer: 0
+  m_Name: DevelopperConsoleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7760678779069018177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5797237914666851278}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 670.64044, y: 466.653, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2091805019888011088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5797237914666851278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc90342f5de88640987d21a8910fa6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CommandExecutor
+  commands:
+  - {fileID: 11400000, guid: 9863acc9048b029418e60604024b8fc2, type: 2}
+  - {fileID: 11400000, guid: f24f135ed74977943a58c75b35ae06fd, type: 2}
+  - {fileID: 11400000, guid: d8c1e644d5657294b8074f338d0b077c, type: 2}
+--- !u!114 &6723610851009160098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5797237914666851278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e558cb8c5948243b409c15fa220aa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DeveloperConsole
+  consoleText: {fileID: 0}
+  inputField: {fileID: 0}
+--- !u!114 &4599994642793152812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5797237914666851278}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b45bc27d33d9004c8859b789781e06b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CommandHistory
+  maxEntries: 100
+  filterByPrefix: 1
+--- !u!114 &8862177574758744234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5797237914666851278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02610aa0a7361dc4fb5cc9a23722f724, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AutoCompleteController
+  suggestionsPanel: {fileID: 0}
+  suggestionItemPrefab: {fileID: 4374528838449925439, guid: 8fbc010fc52190f48a572cab8d0035b4, type: 3}
+  maxVisible: 8
+  completeOnEnter: 0
+  caseInsensitive: 1
