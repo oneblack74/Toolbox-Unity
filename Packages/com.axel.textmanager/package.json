@@ -7,5 +7,17 @@
   "author": "Axel Brissy",
   "dependencies": {
     "com.unity.textmeshpro": "3.0.9"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "Minimal CSV",
+      "description": "CSV d'exemple avec placeholders.",
+      "path": "Samples~/Minimal"
+    },
+    {
+      "displayName": "Starter (Prefab + CSV)",
+      "description": "Prefab TextManager prêt à l’emploi + CSV.",
+      "path": "Samples~/Starter"
+    }
+  ]
 }
