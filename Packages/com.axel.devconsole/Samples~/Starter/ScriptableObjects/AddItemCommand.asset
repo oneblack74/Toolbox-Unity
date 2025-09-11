@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8b3d1fdb50e8cb479e750dceb4ec443, type: 3}
+  m_Script: {fileID: 11500000, guid: f40858446c9df0e4a956b02941a84f9f, type: 3}
   m_Name: AddItemCommand
-  m_EditorClassIdentifier: Assembly-CSharp::AddItemCommand
+  m_EditorClassIdentifier: Axel.DevConsole.Runtime::AddItemCommand
   commandName: AddItem
   options:
   - 1:gold|hp

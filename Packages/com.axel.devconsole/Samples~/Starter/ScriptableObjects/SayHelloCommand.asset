@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81f0e2ad1f5458d4bb9fb5c0e345bb4f, type: 3}
   m_Name: SayHelloCommand
   m_EditorClassIdentifier: 
-  commandName: test
+  commandName: hello
   options: []
