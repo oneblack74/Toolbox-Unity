@@ -1,7 +1,7 @@
 {
   "name": "com.axel.devconsole",
   "displayName": "Developper Console",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "unity": "6000.0",
   "description": "Console de développement pour faciliter le débogage et le test des fonctionnalités avec au choix : historique des commandes, autocomplétion/suggestions.",
   "author": "Axel Brissy",
