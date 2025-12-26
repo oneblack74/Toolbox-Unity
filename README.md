@@ -13,8 +13,8 @@ Chaque module est fourni sous forme de **`.unitypackage`** (import direct dans v
 
 | Package | Télécharger | Doc |
 |--------|-------------|-----|
-| **Text Manager** | [⬇️ TextManager.unitypackage](https://github.com/oneblack74/Toolbox-Unity/releases/download/v0.1.0/TextManager.unitypackage) | [README](Packages/TextManager/README.md) |
-| **Health Controller** | [⬇️ HealthController.unitypackage](https://github.com/oneblack74/Toolbox-Unity/releases/download/v0.1.0/HealthController.unitypackage) | [README](Packages/HealthController/README.md) |
+| **Text Manager** | [⬇️ TextManager.unitypackage](https://github.com/oneblack74/Toolbox-Unity/releases/download/v0.1.1/TextManager.unitypackage) | [README](Packages/TextManager/README.md) |
+| **Health Controller** | [⬇️ HealthController.unitypackage](https://github.com/oneblack74/Toolbox-Unity/releases/download/v0.1.1/HealthController.unitypackage) | [README](Packages/HealthController/README.md) |
 
 > Astuce : vous pouvez aussi récupérer les `.unitypackage` via l’onglet **Releases** du repo.
 
