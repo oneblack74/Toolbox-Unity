@@ -13,8 +13,7 @@ Chaque module est fourni sous forme de **`.unitypackage`** (import direct dans v
 
 | Package | Télécharger | Doc |
 |--------|-------------|-----|
-| **Developer Console** | [Packages/DevConsole/DevConsole.unitypackage](Packages/DevConsole/DevConsole.unitypackage) | [README](Packages/DevConsole/README.md) |
-| **Text Manager** | [Packages/TextManager/TextManager.unitypackage](Packages/TextManager/TextManager.unitypackage) | [README](Packages/TextManager/README.md) |
+| **Text Manager** | [⬇️ TextManager.unitypackage](https://github.com/oneblack74/Toolbox-Unity/releases/download/v0.1.0/TextManager.unitypackage) | [README](Packages/TextManager/README.md) |
 
 > Astuce : vous pouvez aussi récupérer les `.unitypackage` via l’onglet **Releases** du repo.
 
@@ -46,8 +45,8 @@ Chaque module est fourni sous forme de **`.unitypackage`** (import direct dans v
 - [ ] Quêtes / Objectifs / Succès  
 
 ### 🎛️ UI & Tools
-- [X] Developer Console  
 - [X] Text Manager  
+- [ ] Developer Console  
 - [ ] Menu Configuration Touches  
 - [ ] Save System  
 - [ ] Audio Manager  
