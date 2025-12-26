@@ -1,26 +1,55 @@
-# Text Manager (com.axel.textmanager)
+# Text Manager
 
-Contient toutes les langues dans un `.csv` (1ère colonne = Key, colonnes suivantes = langues).  
-Supporte des **variables nommées** `{player}`, `{count}`, etc.
+Localisation basée sur un **CSV** : 1re colonne = `Key`, colonnes suivantes = langues.  
+Supporte les **variables nommées** (`{player}`, `{count}`, …) et TextMeshPro.
+
+---
+
+## Installation
+
+- Téléchargez **TextManager.unitypackage** :  
+  [`Packages/TextManager/TextManager.unitypackage`](TextManager.unitypackage)
+- Unity → **Assets → Import Package → Custom Package…** → importez tout.
+
+**Contenu importé (exemple)**
+- `Assets/…/TextManager/Prefabs/TextManager.prefab`
+- `Assets/…/TextManager/Scripts/*`
+- `Assets/…/TextManager/Localization/Text.csv` (exemple)
 
 ---
 
 ## Utilisation
-- Placez le **prefab `TextManager`** dans vos scènes (ou un GO avec `LanguageManager` + `TextManager`).
-- Pour afficher un texte, utilisez `TextReplace` sur vos UI **TextMeshProUGUI**.  
-  Vous pouvez créer un texte localisé depuis le menu **GameObject → UI → Localized Text**.
-- Le `.csv` contient la **Key** et une colonne par langue. Les clés commencent par `$`.  
-  Exemple : `$PLAY;Jouer;Play`.
-- Variables : définissez `{player}` dans le `.csv` et, sur le `TextReplace`, renseignez **Serialized Vars** :  
-  - Name → `player`  
-  - Value → `Axel`  
-  Exemple : `$HELLO;Bonjour {player}!;Hello {player}!`
+
+1) **Prefab / Manager**
+- Ajoutez le **prefab `TextManager`** dans votre scène  
+  *(ou créez un GO avec `LanguageManager` + `TextManager`)*.
+
+2) **UI localisée**
+- Ajoutez le composant **`TextReplace`** sur un `TextMeshProUGUI`.  
+- Menu rapide : **GameObject → UI → Localized Text**.
+
+3) **CSV**
+- La 1re colonne contient la **Key** (souvent préfixée `$`).  
+  Exemple :  
+```Key;French;English
+$PLAY;Jouer;Play
+$HELLO;Bonjour {player}!;Hello {player}!
+```
+- Pour injecter des variables, ajoutez-les sur `TextReplace` → **Serialized Vars** :
+- Name → `player`, Value → `Axel`  → affiche “Bonjour Axel !”.
+
+---
 
 ## API rapide
+
 ```csharp
 // Sans variables
 var s = TextManager.Instance.GetText("$PLAY");
 
 // Avec variables nommées
-var txt = TextManager.Instance.GetText("$HELLO", new Dictionary<string, object> { ["player"] = "Axel" });
+var txt = TextManager.Instance.GetText(
+  "$HELLO",
+  new Dictionary<string, object> { ["player"] = "Axel" }
+);
 ```
+> TIP : si une variable manque, le placeholder {name} reste visible, pratique pour débug.

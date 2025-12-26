@@ -4,17 +4,27 @@
 ![Licence MIT](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-WIP-orange)
 
-Collection de **packages Unity modulaires** pour accélérer le développement.  
-Chaque package est indépendant et peut être installé via **UPM (Git URL)**.
+Collection de **modules Unity** prêts à l’emploi.  
+Chaque module est fourni sous forme de **`.unitypackage`** (import direct dans votre projet).
 
 ---
 
 ## 📦 Packages disponibles
 
-| Package | Install (UPM Git URL) | Doc |
-|---------|------------------------|-----|
-| **Developer Console** | `https://github.com/oneblack74/Toolbox-Unity.git?path=/Packages/DevConsole.unitypackage` | [README](Packages/DevConsole/README.md) |
-| **Text Manager** | `https://github.com/oneblack74/Toolbox-Unity.git?path=/Packages/TextManager.unitypackage` | [README](Packages/TextManager/README.md) |
+| Package | Télécharger | Doc |
+|--------|-------------|-----|
+| **Developer Console** | [Packages/DevConsole/DevConsole.unitypackage](Packages/DevConsole/DevConsole.unitypackage) | [README](Packages/DevConsole/README.md) |
+| **Text Manager** | [Packages/TextManager/TextManager.unitypackage](Packages/TextManager/TextManager.unitypackage) | [README](Packages/TextManager/README.md) |
+
+> Astuce : vous pouvez aussi récupérer les `.unitypackage` via l’onglet **Releases** du repo.
+
+---
+
+## 🔧 Installation
+
+1. Téléchargez le fichier `.unitypackage` du module souhaité (lien ci-dessus).
+2. Dans Unity : **Assets → Import Package → Custom Package…** puis sélectionnez le fichier.
+3. Laissez tous les éléments cochés et cliquez **Import**.
 
 ---
 
@@ -28,6 +38,7 @@ Chaque package est indépendant et peut être installé via **UPM (Git URL)**.
 - [ ] 2D Side Player  
 
 ### ⚔️ Gameplay Systems
+- [ ] Dialogue System
 - [ ] Système d’interaction  
 - [ ] Health Controller  
 - [ ] Stamina Controller  
@@ -35,34 +46,13 @@ Chaque package est indépendant et peut être installé via **UPM (Git URL)**.
 - [ ] Quêtes / Objectifs / Succès  
 
 ### 🎛️ UI & Tools
-- [X] Developer Console
-- [X] Text Manager
+- [X] Developer Console  
+- [X] Text Manager  
 - [ ] Menu Configuration Touches  
 - [ ] Save System  
 - [ ] Audio Manager  
 - [ ] Settings & Options  
 - [ ] Gizmos / Debug Draw  
-
----
-
-## 🔧 Installation
-
-1. Ouvrez votre projet Unity.  
-2. Allez dans `Window > Package Manager`.  
-3. Cliquez sur **Add package from git URL...**  
-4. Collez l’URL du package.
-5. Importez les **Samples** si disponibles (prefabs, assets de démo).
-
-Unity téléchargera et installera automatiquement le package.
-
----
-
-## 📖 Documentation
-
-Chaque dossier contient un dossier `Documentation~/README.md` avec :  
-- Présentation rapide  
-- Exemples de code  
-- Notes d’intégration 
 
 ---
 
