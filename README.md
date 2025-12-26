@@ -13,8 +13,8 @@ Chaque package est indépendant et peut être installé via **UPM (Git URL)**.
 
 | Package | Install (UPM Git URL) | Doc |
 |---------|------------------------|-----|
-| **Developer Console** | `https://github.com/oneblack74/Toolbox-Unity.git?path=/Packages/com.axel.devconsole` | [README](Packages/com.axel.devconsole/Documentation~/README.md) |
-| **Text Manager** | `https://github.com/oneblack74/Toolbox-Unity.git?path=/Packages/com.axel.textmanager` | [README](Packages/com.axel.textmanager/Documentation~/README.md) |
+| **Developer Console** | `https://github.com/oneblack74/Toolbox-Unity.git?path=/Packages/DevConsole.unitypackage` | [README](Packages/DevConsole/README.md) |
+| **Text Manager** | `https://github.com/oneblack74/Toolbox-Unity.git?path=/Packages/TextManager.unitypackage` | [README](Packages/TextManager/README.md) |
 
 ---
 
@@ -59,7 +59,7 @@ Unity téléchargera et installera automatiquement le package.
 
 ## 📖 Documentation
 
-Chaque package contient un dossier `Documentation~/README.md` avec :  
+Chaque dossier contient un dossier `Documentation~/README.md` avec :  
 - Présentation rapide  
 - Exemples de code  
 - Notes d’intégration 

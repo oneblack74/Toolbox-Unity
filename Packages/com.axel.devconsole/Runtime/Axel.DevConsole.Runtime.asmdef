@@ -1,9 +1,0 @@
-{
-    "name": "Axel.DevConsole.Runtime",
-    "rootNamespace": "Axel.DevConsole",
-    "references": [
-        "Unity.TextMeshPro"
-    ],
-    "includePlatforms": [],
-    "autoReferenced": true
-}
