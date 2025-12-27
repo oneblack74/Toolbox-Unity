@@ -38,9 +38,9 @@ Chaque module est fourni sous forme de **`.unitypackage`** (import direct dans v
 - [ ] 2D Side Player  
 
 ### ⚔️ Gameplay Systems
+- [X] Health Controller  
 - [ ] Dialogue System
 - [ ] Système d’interaction  
-- [ ] Health Controller  
 - [ ] Stamina Controller  
 - [ ] State Machine & Behaviour Trees  
 - [ ] Quêtes / Objectifs / Succès  
