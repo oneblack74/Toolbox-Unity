@@ -21,7 +21,7 @@ Chaque module est fourni sous forme de **`.unitypackage`** (import direct dans v
 ## Logiciels
 | Nom logiciel | Version | Télécharger |
 |--------------|---------|-------------|
-| **Dialogue Editor** | 0.2 | [⬇️ DialogueEditor.zip](https://github.com/oneblack74/Toolbox-Unity/releases/download/v0.1.2/DialogueEditor.v0.2.zip) |
+| **Dialogue Editor** | 0.3 | [⬇️ DialogueEditor.zip](https://github.com/oneblack74/Toolbox-Unity/releases/download/v0.1.3/DialogueEditor.v0.3.zip) |
 
 
 ---
