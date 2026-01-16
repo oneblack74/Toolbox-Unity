@@ -15,8 +15,14 @@ Chaque module est fourni sous forme de **`.unitypackage`** (import direct dans v
 |--------|-------------|-----|
 | **Text Manager** | [⬇️ TextManager.unitypackage](https://github.com/oneblack74/Toolbox-Unity/releases/download/v0.1.1/TextManager.unitypackage) | [README](Packages/TextManager/README.md) |
 | **Health Controller** | [⬇️ HealthController.unitypackage](https://github.com/oneblack74/Toolbox-Unity/releases/download/v0.1.1/HealthController.unitypackage) | [README](Packages/HealthController/README.md) |
-
+| **2D Side Player** | [⬇️ 2DSidePlayer.unitypackage](https://github.com/oneblack74/Toolbox-Unity/releases/download/v0.1.2/2DSidePlayer.unitypackage) | |
 > Astuce : vous pouvez aussi récupérer les `.unitypackage` via l’onglet **Releases** du repo.
+
+## Logiciels
+| Nom logiciel | Version | Télécharger |
+|--------------|---------|-------------|
+| **Dialogue Editor** | 0.2 | [⬇️ DialogueEditor.zip](https://github.com/oneblack74/Toolbox-Unity/releases/download/v0.1.2/DialogueEditor.zip) |
+
 
 ---
 
@@ -31,14 +37,15 @@ Chaque module est fourni sous forme de **`.unitypackage`** (import direct dans v
 ## 🚧 Roadmap
 
 ### 🎮 Player Controllers
+- [X] 2D Side Player  
 - [ ] FPS Player  
 - [ ] Top Down Player  
 - [ ] TPS Player  
 - [ ] 2D Top Down Player  
-- [ ] 2D Side Player  
 
 ### ⚔️ Gameplay Systems
 - [X] Health Controller  
+- [X] Dialogue Editor
 - [ ] Dialogue System
 - [ ] Système d’interaction  
 - [ ] Stamina Controller  
